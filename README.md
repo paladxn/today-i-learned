@@ -24,3 +24,6 @@
   * Paket `cygutils` wajib terpasang di Local Terminal MobaXterm untuk menyediakan utilitas `cygstart` agar `apt` berjalan normal.
 * **Manajemen APT:**
   * Pemulihan paket gantung/rusak: `sudo dpkg --configure -a && sudo apt --fix-broken install`
+  
+### 📄 Dokumentasi Lengkap
+* [Workstation & Network Sniffing Cheat Sheet](workstation_setup_network_sniffing_cheat_sheet.md)
