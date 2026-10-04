@@ -1,18 +1,13 @@
-# 🧠 Today I Learned (TIL)
+# 🧠 Today I Learned (TIL) & Knowledge Base
 
 > Log pembelajaran teknis harian, troubleshooting jaringan, dan konfigurasi *environment* kerja, fungsinya sebagai self reminder saja untuk progress pembelajaran.
 
 ---
 
-## 🛠️ Ringkasan Catatan Teknis
+## 📌 Tujuan Repositori
 
-### 1. Packet Capture di WSL2 (`tshark`)
-* **Masalah:** Error *Promiscuous mode not supported* atau capture gantung (0 packets captured).
-* **Penyebab:** Interface `any` tidak mendukung promiscuous mode di WSL2, dan traffic DNS sering tertahan di cache/loopback.
-* **Solusi:** Gunakan flag `-p` (*disable promiscuous mode*) pada interface `eth0`:
-  ```bash
-  # Capture ICMP (ping)
-  tshark -i eth0 -p -f "icmp" -c 4
+* **Self-Reminder:** Dokumentasi privat yang dapat diakses dari mana saja saat menghadapi kendala teknis serupa di masa depan.
+* **Tracking Progress:** Mengukur pertumbuhan pemahaman konsep, alat (*tools*), dan arsitektur sistem secara konsisten.
+* **Knowledge Sharing:** Catatan yang disusun terstruktur agar mudah dipahami oleh audiens umum maupun profesional.
 
-  # Capture DNS Traffic ke file pcap
-  tshark -i eth0 -p -f "udp port 53" -w dns.pcap -c 5
+---
