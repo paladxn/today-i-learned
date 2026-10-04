@@ -1,6 +1,6 @@
 # 🧠 Today I Learned (TIL)
 
-> Log pembelajaran teknis harian, troubleshooting jaringan, dan konfigurasi *environment* kerja.
+> Log pembelajaran teknis harian, troubleshooting jaringan, dan konfigurasi *environment* kerja, fungsinya sebagai self reminder saja untuk progress pembelajaran.
 
 ---
 
